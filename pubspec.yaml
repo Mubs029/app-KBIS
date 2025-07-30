@@ -1,0 +1,42 @@
+name: kamus_indonesia_sahu
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  algorithmic: ^0.0.11
+  device_preview: ^1.1.0
+  easy_debounce: ^2.0.3
+  easy_pdf_viewer: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  gap: ^3.0.1
+  google_fonts: ^6.1.0
+  lottie: ^3.0.0
+  path: ^1.8.3
+  shared_preferences: ^2.0.8
+  sqflite: ^2.3.0
+  sqlite_viewer: ^1.0.5
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon_v2.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animation/
+    - assets/images/logo_header.png
+    - assets/icon/icon_v2.png
+    - assets/doc/panduan.pdf
