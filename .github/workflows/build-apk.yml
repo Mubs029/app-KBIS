@@ -23,7 +23,7 @@ jobs:
           flutter-version: '3.19.0'
 
       - name: Perbaiki Konfigurasi Android Otomatis
-        run: flutter create --project-name app_kbis .
+        run: flutter create --project-name kamus_indonesia_sahu .
 
       - name: Install Dependencies
         run: flutter pub get
