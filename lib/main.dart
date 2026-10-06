@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kamus_indonesia_sahu/Database/Db_Helper.dart';
-import 'package:kamus_indonesia_sahu/Models/Model.dart';
-import 'package:kamus_indonesia_sahu/Screens/Splashpage.dart';
+import 'Database/Db_Helper.dart';
+import 'Models/Model.dart';
+import 'Screens/Splashpage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
