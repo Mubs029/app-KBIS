@@ -1,7 +1,7 @@
 name: Build Flutter APK
 
 on:
-  workflow_dispatch: # Memungkinkan Anda menekan tombol "Run" secara manual
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,8 +20,11 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: 'stable'
-          
+          flutter-version: '3.19.0'
+
+      - name: Perbaiki Konfigurasi Android Otomatis
+        run: flutter create .
+
       - name: Install Dependencies
         run: flutter pub get
 
